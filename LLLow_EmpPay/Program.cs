@@ -106,8 +106,7 @@ namespace LLLow_EmpPay
 
         static private int ProcessResults()
         {
-            var l = Emps.OrderByDescending(e => e.Amount);
-            foreach (var emp in l)
+            foreach (var emp in Emps.OrderByDescending(e => e.Amount))
             {
                 Console.WriteLine($"{emp.Name} {emp.Rate} {emp.Hours} {emp.Amount}");
             }
