@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LLLow_EmpPay": {
+      "commandName": "Project",
+      "commandLineArgs": "EmpTestFile.txt"
+    }
+  }
+}
