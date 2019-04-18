@@ -23,9 +23,7 @@ namespace LLLow_EmpPay
         {
             if (args.Length == 1)
             {
-                Console.WriteLine(args[0]);
                 FileName = args[0];
-                //FileName = Path.Join(Directory.GetCurrentDirectory(),args[0]);
             }
             else
             {
